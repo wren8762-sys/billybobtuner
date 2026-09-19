@@ -1,0 +1,13 @@
+{
+  "name": "https-radio-relay",
+  "version": "1.0.0",
+  "description": "Relays plain http:// radio streams over https:// to avoid mixed-content blocking.",
+  "main": "https-radio-relay.js",
+  "scripts": {
+    "start": "node https-radio-relay.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}
